@@ -2,33 +2,131 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
 </head>
 
 <body>
-    <table border="1" cellpadding="10" cellspacing="10">
-        <tr>
-            <td><img src="./simhadri1.webp" width="200" height="200"></td>
-            <td><img src="./adhi2.webp" width="200" height="200"></td>
-            <td><img src="./devara3.jpeg" width="200" height="200"></td>
-            <td><img src="./joe4.jpg" width="200" height="200"></td>
-        </tr>
-        <tr>
-            <td><audio src="./Cheema Cheema-SenSongsMp3.Co.mp3" controls autoplay muted></td>
-            <td><audio src="./Nee Navvula-SenSongsMp3.Co.mp3" controls autoplay muted></audio></td>
-            <td><audio src="./[iSongs.info] 02 - Fear Song.mp3" controls autoplay muted></audio></td>
-            <td><audio src="./Urugi Urugi.mp3" controls autoplay muted></audio></td>
-        </tr>
-        <tr>
+  <center><img src="https://www.logolynx.com/images/logolynx/b7/b73b753c392e295528c77980cb49e7e4.jpeg" alt=""
+      width="150" height="150"></center>
 
-            <td><a href="./Cheema Cheema-SenSongsMp3.Co.mp3" download="Cheema-SenSongsMp3"> download</a></td>
-            <td><a href="./Nee Navvula-SenSongsMp3.Co.mp3" download="nee Navvula-SenSongsMp3"> download</a></td>
-            <td><a href="./[iSongs.info] 02 - Fear Song.mp3" download="Fear"> download</a></td>
-            <td><a href="./Urugi Urugi.mp3" download="Urugi"> download</a></td>
-        </tr>
-    </table>
+  <h1>
+    <center>TELANGANA STATE ROAD TRANSPORT CORPORATION</center>
+  </h1>
+  <h1>
+    <center>GENERAL BUS PASS APPILICATION</center>
+  </h1>
+  <fieldset>
+    <legend> Applicant Details </legend>
+    <label for="Name : " id="Name"> Name* : </label>
+    <input type="text" maxlength=20 name="Name" id="Name">
+    &ensp; &ensp;
+    &ensp;&ensp;<label for="Fathers name"> Fathers name* : </label>
+    <input type="text" id="Fathers name" name="Fathers name">
+    <br><br>
+    <label for="Date of birth"> Date of birth* :</label>
+    <input type="date" id="Date of birth" name="Date of birth">
+    &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; <label for="Gender">Gender * :</label>
+    <input type="radio" id="male" name="Gender" value="male">
+    <label for="male">male</label>
+    <input type="radio" name="Gender" id="male" value="male">
+    <label for="female">female</label>
+    <input type="radio" name="Gender" id="female" value="female">
+    <br><br>
+    <label for="years">Age As On* : years </label>
+    <input type="checkbox" id="years" name="years">
+    <label for="months"> months</label>
+    <input type="checkbox" id="months" name="months">
+    <label for="days"> days</label>
+    <input type="checkbox" id="days" name="days">
+
+
+    &ensp; <label for="Adhar No">Adhar No* : </label>
+    <input type="number" id="Adhar No" name="Adhar No">
+    <br><br>
+    <label for="Watsapp no">Watsapp no* : </label>
+    <input type="number" id="watsapp no" name="watsapp no">
+    &ensp;&ensp; <label for="E mail id">E mail id* :</label>
+    <input type="email" id="E mail id" name="E mail id">
+    <br><br>
+    <label for="choosefile">Photos* :</label>
+    <input type="file" name="image" id="choosefile" accept="image/**">
+
+  </fieldset>
+  <fieldset>
+    <legend>Residental Adress</legend>
+
+    <label for="Applicant adress "> Applicant adress* :</label>
+    <textarea <input type="text" id="Applicant adress" name="Applicant adress" maxlength="20"></textarea>
+
+    <label for="District"> District* :</label>
+    <select name="District" id="District">
+      <option value="kukatpalli">kukatpalli</option>
+      <option value="jntuh">jntuh</option>
+      <option value="hyderabad">hyderabad</option>
+      <option value="TELANGANA">TELANGANA</option>
+    </select>
+    <br><br>
+    <label for="Mandal"> Mandal* :</label>
+    <select name="Mandal" id="Mandal">
+      <option value="kukatpalli">kukatpalli</option>
+      <option value="jntuh">jntuh</option>
+      <option value="hyderabad">hyderabad</option>
+      <option value="TELANGANA">TELANGANA</option>
+    </select>
+    &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; &ensp;&ensp;&ensp;&ensp;&ensp;&ensp; <label for="village"> village*
+      :</label>
+    <select name="village" id="village">
+      <option value="kukatpalli">kukatpalli</option>
+      <option value="jntuh">jntuh</option>
+      <option value="hyderabad">hyderabad</option>
+      <option value="TELANGANA">TELANGANA</option>
+    </select>
+    <br><br>
+    <label for="pincode">Pincode* :</label>
+    <input type="number" id="pincode" name="pincode">
+  </fieldset>
+  <fieldset>
+    <legend>Pass Type Details* :</legend>
+    <label for="City">City* :</label>
+    <select name="City" id="City">
+      <option value="hyderabad">hyderabad</option>
+    </select><br><br>
+    <label for="Pass Type">Pass Type* :</label>
+    <select name="Pass Type" id="Pass Type">
+      <option value="--select--">--select--</option>
+      <option value="student">student</option>
+      <option value="govt emplouyee">govt emplouyee</option>
+      <option value="IT employee">IT employee</option>
+    </select>
+  </fieldset>
+  <fieldset>
+    <legend>Mode of payment & Pass collection</legend>
+    <label for="Payment mode :">Payment mode* : </label>
+    <select name="Payment mode :" id="Payment mode :">
+      <option value="--select--">--select--</option>
+      <option value="Phonepay">Phonepay</option>
+      <option value="paytm">paytm</option>
+      <option value="UPI Payments">UPI Payments</option>
+    </select><br><br>
+    <label for="Pass Deliveruy Mode">Pass Delivery Mode* :</label>
+    <select name="Pass Delivery Mode" id="Pass Delivery Mode">
+      <option value="--select--">--select--</option>
+      <option value="Pst">Post</option>
+      <option value="Self Delivery">Self Delivery</option>
+      <option value="Online">Online</option>
+    </select><br><br>
+    <label for="Center at which yoy want collect pass">center at which you want to collect pass* :</label>
+    <select name="Center at which yoy want collect pass" id="Center at which yoy want collect pass">
+      <option value="--select--">--select--</option>
+      <option value="kukatpalli">kukatpalli</option>
+      <option value="jntuh">jntuh</option>
+      <option value="kphb">kphb</option>
+    </select>
+
+  </fieldset>
+  <center><label for="Submit"> <button>Submit</button></label></center>
 </body>
 
 </html>
