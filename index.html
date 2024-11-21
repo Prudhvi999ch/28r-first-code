@@ -2,16 +2,31 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
 </head>
+<h1>
+  <center>Login. Html</center>
+</h1>
 
 <body>
-    <p>
-    <h1>Hello World</h1>
-    
-    </p>
+  <form action="./Login.html">
+
+    <fieldset>
+      <center>
+        <label for="Username">Username</label>
+        <input type="text" pattern="[a-z]+@{A-Z}" required>
+      </center>
+      <br>
+      <center><label for="Password">Password</label>
+        <input type="text" id="Password" name="Password" pattern="[a-z A-Z /d]+" maxlength="7" minlength="5" required>
+      </center>
+      <br>
+
+      <center><button>Login</button></center><br>
+
+      <pre>                                                                                            <a href="./Forgot.html" > Forgot</a> <a href="./Registration.html">Registration</a></pre>
 </body>
 
 </html>
